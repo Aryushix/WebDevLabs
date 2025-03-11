@@ -1,0 +1,41 @@
+*{
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <100>;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+
+    padding: 5;
+    margin: auto;
+    /*border:1 px solid black;*/
+    
+    
+}
+
+#titlecolor{
+    background-color: #ffebcd ;
+
+}
+
+ .linker{
+    text-decoration: None;
+    color: #3cb371;
+    margin-right: 15;
+  }
+
+  th{
+    padding: 12;
+    background-color: blanchedalmond;
+    color: #3cb371;
+    width: fit-content;
+  }
+
+  table tr:nth-child(odd){
+    background-color: blanchedalmond;
+  }
+* form{
+    display: block;
+    margin: auto;
+    text-align: center;
+}
