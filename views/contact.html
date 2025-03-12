@@ -1,7 +1,9 @@
-<DOCTYPE html>
+<doctype html>
     <html>
         
         <head>
+            <script defer> src="./static/script.js" </script> 
+        
             <meta name = "author" content = "Brian Woo">
             <meta name = "keywords" content = "Carnegie Mellon University Information Systems">
             <meta name = "description" content = "Brian Woo's Professional Website">
@@ -21,7 +23,7 @@
                     <a class = "linker" href= "fun.html">"For Fun"</a>  
                 </nav>
             </header>
-            <div class = main> 
+            <div class = "main"> 
                 <h2>"Contact Me"</h2>
                <form action ="/action_page.php" method = "get">
                 <label for ="fname" > First name:</label>
@@ -29,9 +31,11 @@
                 <label for ="lname" > Last name:</label>
                 <input type ="text" id = "lname" name = "lname"><br><br>
                 <label for = "email"> Email:</label>
-                <input type ="email"id = "email" name = "email"><br><br>
+                <input type ="email" id = "email" name = "email"><br><br>
                 <label for = "commments"> Comments:</label> 
-                <input type = "text" id = comments name = "comments"><br><br>
+                <input type = "text" id = "comments" name = "comments"><br><br>
+                <label for = "number"> Phone Number:</label> 
+                <input type = "number" id = "number" name = "number"><br><br>
                 <input type = "submit" value = "Submit">
                </form>
             </div>
@@ -39,13 +43,27 @@
                 <h3>
                     Contact Method Description
                 </h3>
-                Email: briann.j.woo@gmail<br>
-                Phone: 909-636-7020<br>
-                LinkedIn: UnderDevelopment<br>
+                    <table> 
+                
+                        <tr>
+                            <td> Email:</td> 
+                            <td> briann.j.woo@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td> Phone: </td>
+                            <td> 909-636-7020</td>
+                        </tr>
+                        <tr>
+                            <td>LinkedIn:   </td>
+                            <td>UnderDevelopment</td>
+                        </tr>
+                    </table>
+                
+                
             </div>
-            <div class = footer> 
+            <div class = "footer"> 
                 ©2025 designed and coded by Brian Woo
             </div>
         </body>
         </html>
-</DOCTYPE>
+</doctype>
